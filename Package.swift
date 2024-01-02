@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "Adwaita Template",
     dependencies: [
-        .package(url: "https://github.com/AparokshaUI/Adwaita", from: "0.1.5")
+    .package(url: "https://github.com/AparokshaUI/Adwaita.git", branch: "main")
     ],
     targets: [
         .executableTarget(
